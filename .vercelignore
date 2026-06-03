@@ -1,4 +1,6 @@
+.git/
 .next/
+.vercel/
 node_modules/
 
 *.log
@@ -7,6 +9,3 @@ wallet-verify-chrome-profile-2/
 
 .env
 .env.*
-!.env.example
-
-.vercel
