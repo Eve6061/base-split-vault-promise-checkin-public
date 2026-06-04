@@ -1,7 +1,6 @@
 import { FileCheck2 } from 'lucide-react'
 import { CheckInRecord } from '@/lib/mockData'
 import { shortHash } from '@/lib/promiseLogic'
-import { CopyProofButton } from './CopyProofButton'
 import { StatusChip } from './StatusChip'
 
 export function StreakLogList({ records }: { records: CheckInRecord[] }) {
@@ -20,7 +19,6 @@ export function StreakLogList({ records }: { records: CheckInRecord[] }) {
             <span>{record.time}</span>
             <code>{shortHash(record.proofHash)}</code>
           </div>
-          <CopyProofButton proofHash={record.proofHash} />
         </article>
       ))}
     </section>

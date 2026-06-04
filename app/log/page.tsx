@@ -1,7 +1,7 @@
 'use client'
 
 import { FileClock, Hash } from 'lucide-react'
-import { CopyProofButton } from '@/components/CopyProofButton'
+import { EmptyState } from '@/components/EmptyState'
 import { PromiseHeader } from '@/components/PromiseHeader'
 import { StreakLogList } from '@/components/StreakLogList'
 import { usePromiseCheckinVault } from '@/hooks/usePromiseCheckinVault'
@@ -22,16 +22,21 @@ export default function StreakLogPage() {
           </div>
           <FileClock size={34} aria-hidden="true" />
         </section>
-        <section className="latest-proof">
-          <div>
-            <Hash size={18} aria-hidden="true" />
-            <span>Latest confirmed check-in</span>
-          </div>
-          <strong>{latest.date}</strong>
-          <code>{shortHash(latest.proofHash)}</code>
-          <CopyProofButton proofHash={latest.proofHash} />
-        </section>
-        <StreakLogList records={vault.history} />
+        {latest ? (
+          <>
+            <section className="latest-proof">
+              <div>
+                <Hash size={18} aria-hidden="true" />
+                <span>Latest confirmed check-in</span>
+              </div>
+              <strong>{latest.date}</strong>
+              <code>{shortHash(latest.proofHash)}</code>
+            </section>
+            <StreakLogList records={vault.history} />
+          </>
+        ) : (
+          <EmptyState title="No Check-ins Yet" detail="Create a promise and check in once to generate your first on-chain proof." />
+        )}
       </main>
     </div>
   )

@@ -1,12 +1,8 @@
 'use client'
 
-import Link from 'next/link'
-import { ArrowRight, Hash, ShieldCheck } from 'lucide-react'
-import { ActionBar } from '@/components/ActionBar'
+import { Hash, ShieldCheck } from 'lucide-react'
 import { CheckInButton } from '@/components/CheckInButton'
-import { CheckInCalendarStrip } from '@/components/CheckInCalendarStrip'
 import { PromiseHeader } from '@/components/PromiseHeader'
-import { PromiseRail } from '@/components/PromiseRail'
 import { PromiseStatusBoard } from '@/components/PromiseStatusBoard'
 import { TodayStatusPanel } from '@/components/TodayStatusPanel'
 import { usePromiseCheckinVault } from '@/hooks/usePromiseCheckinVault'
@@ -19,7 +15,6 @@ export default function HomePage() {
     <div className="app-shell">
       <PromiseHeader />
       <main className="vault-grid">
-        <PromiseRail />
         <section className="checkin-station">
           <div className="station-head">
             <p className="eyebrow">Live Promise Check-in Vault</p>
@@ -40,17 +35,11 @@ export default function HomePage() {
               {vaultError}
             </div>
           ) : null}
-          <CheckInCalendarStrip />
           <div className="proof-inline">
             <Hash size={16} aria-hidden="true" />
             <span>Latest proof</span>
             <code>{shortHash(vault.proofHash)}</code>
           </div>
-          <ActionBar />
-          <Link className="station-link" href={`/promise/${vault.id}`}>
-            Open promise proof board
-            <ArrowRight size={16} aria-hidden="true" />
-          </Link>
         </section>
         <PromiseStatusBoard vault={vault} />
       </main>

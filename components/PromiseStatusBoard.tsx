@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { ArrowRight, Copy, Hash, ShieldCheck } from 'lucide-react'
+import { Hash, ShieldCheck } from 'lucide-react'
 import { PromiseVault } from '@/lib/mockData'
 import { shortHash } from '@/lib/promiseLogic'
 import { StatusChip } from './StatusChip'
@@ -28,11 +27,6 @@ export function PromiseStatusBoard({ vault }: { vault: PromiseVault }) {
         <span>Today</span>
         <StatusChip status={vault.todayStatus} />
       </div>
-      <Link className="panel-link" href="/log">
-        <Copy size={16} aria-hidden="true" />
-        View Proof Log
-        <ArrowRight size={16} aria-hidden="true" />
-      </Link>
     </aside>
   )
 }

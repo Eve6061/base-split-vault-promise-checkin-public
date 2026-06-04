@@ -1,8 +1,7 @@
 import { createClient, http } from 'viem'
 import { createConfig } from 'wagmi'
 import { base } from 'wagmi/chains'
-import { injected } from '@wagmi/core'
-import { coinbaseWallet } from '@wagmi/connectors'
+import { coinbaseWallet, injected } from '@wagmi/connectors'
 
 export const APP_ID = 'app-promise-checkin'
 export const APP_NAME = 'Promise Check-in Vault'
@@ -16,15 +15,8 @@ export const config = createConfig({
   chains: [base],
   connectors: [
     injected({
-      shimDisconnect: true
-    }),
-    injected({
-      target: 'metaMask',
-      shimDisconnect: true
-    }),
-    injected({
-      target: 'okxWallet',
-      shimDisconnect: true
+      shimDisconnect: true,
+      unstable_shimAsyncInject: 500
     }),
     coinbaseWallet({
       appName: APP_NAME,
@@ -32,6 +24,7 @@ export const config = createConfig({
       version: '4'
     })
   ],
+  multiInjectedProviderDiscovery: false,
   client({ chain }) {
     return createClient({
       chain,

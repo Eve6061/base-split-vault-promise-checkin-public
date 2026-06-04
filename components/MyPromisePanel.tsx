@@ -1,5 +1,4 @@
-import Link from 'next/link'
-import { ArrowRight, CircleDot, UserCheck } from 'lucide-react'
+import { CircleDot, UserCheck } from 'lucide-react'
 import { PromiseVault } from '@/lib/mockData'
 import { StatusChip } from './StatusChip'
 
@@ -49,16 +48,6 @@ export function MyPromisePanel({
           </div>
         ))}
       </section>
-      <div className="my-actions">
-        <Link href="/checkin">
-          Check In
-          <ArrowRight size={16} aria-hidden="true" />
-        </Link>
-        <Link href="/log">
-          View Log
-          <ArrowRight size={16} aria-hidden="true" />
-        </Link>
-      </div>
     </main>
   )
 }

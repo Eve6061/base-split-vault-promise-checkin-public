@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { ShieldCheck } from 'lucide-react'
-import { TopTabs } from './TopTabs'
 import { WalletButton } from './WalletButton'
 
 export function PromiseHeader() {
@@ -15,7 +14,6 @@ export function PromiseHeader() {
           <h1>Promise Check-in Vault</h1>
         </div>
       </div>
-      <TopTabs />
       <WalletButton />
     </header>
   )

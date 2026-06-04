@@ -2,7 +2,6 @@
 
 import { BadgeCheck, ShieldCheck } from 'lucide-react'
 import { CheckInButton } from '@/components/CheckInButton'
-import { CheckInCalendarStrip } from '@/components/CheckInCalendarStrip'
 import { PromiseComposer } from '@/components/PromiseComposer'
 import { PromiseHeader } from '@/components/PromiseHeader'
 import { StatusChip } from '@/components/StatusChip'
@@ -30,7 +29,6 @@ export default function CheckInPage() {
               {vaultError}
             </div>
           ) : null}
-          <CheckInCalendarStrip />
         </section>
         <aside className="commitment-side">
           <section className="rule-panel">

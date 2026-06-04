@@ -1,8 +1,6 @@
-import Link from 'next/link'
-import { ArrowLeft, FileClock, Hash } from 'lucide-react'
+import { FileClock, Hash } from 'lucide-react'
 import { PromiseVault } from '@/lib/mockData'
 import { shortHash } from '@/lib/promiseLogic'
-import { CopyProofButton } from './CopyProofButton'
 import { StatusChip } from './StatusChip'
 import { StreakMeter } from './StreakMeter'
 import { TodayStatusPanel } from './TodayStatusPanel'
@@ -10,10 +8,6 @@ import { TodayStatusPanel } from './TodayStatusPanel'
 export function PromiseDetailPanel({ vault }: { vault: PromiseVault }) {
   return (
     <main className="detail-board">
-      <Link className="back-link" href="/">
-        <ArrowLeft size={16} aria-hidden="true" />
-        Back to Vault
-      </Link>
       <section className="detail-proof">
         <div>
           <p className="eyebrow">Promise Proof Board</p>
@@ -28,7 +22,6 @@ export function PromiseDetailPanel({ vault }: { vault: PromiseVault }) {
           <Hash size={20} aria-hidden="true" />
           <span>Latest Proof</span>
           <code>{shortHash(vault.proofHash)}</code>
-          <CopyProofButton proofHash={vault.proofHash} />
         </div>
         <div className="history-count">
           <FileClock size={20} aria-hidden="true" />
