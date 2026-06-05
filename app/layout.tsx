@@ -34,6 +34,10 @@ export default function RootLayout({
           name="talentapp:project_verification"
           content="c72e1997b2a5f7c751001aaf5fe9122349136a041df6c64c06cd757abb94722c9ac31eeb56c47c32b9d1df209346c1e29836d4403d9167139361adee2266fc4e"
         />
+        <meta
+          name="talentapp:project_verification"
+          content="d22a3ebe2e182c0e210f20e33d81d5e3070ba47afbcdb8ef40cdd4a477d96a099f227b4cc58c2ff4c08b58c2814ab8d1310acac54243cf93db5042ae744f6178"
+        />
       </head>
       <body>
         <Providers>{children}</Providers>
