@@ -167,3 +167,13 @@ Include any relevant context, testing notes, or migration details in the pull re
 ## License
 
 No license information was provided in the original README.
+
+Check the repository for a `LICENSE` file or other licensing notice before using, modifying, or redistributing the project.
+
+## Maintainers
+
+The public repository is hosted at:
+
+https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+
+Use the repository issues, pull requests, or other project channels for questions and updates.
