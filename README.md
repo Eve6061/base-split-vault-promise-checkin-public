@@ -79,3 +79,11 @@ With npm:
     npm install
 
 With pnpm:
+
+    pnpm install
+
+With Yarn:
+
+    yarn install
+
+If no dependency manifest is present, no package installation may be required.
