@@ -105,3 +105,11 @@ Example:
 Do not commit local secrets, private configuration, or machine-specific environment files.
 
 ## Usage
+
+Because the original README does not document project-specific commands, use the scripts and instructions defined in the repository itself.
+
+If `package.json` is present, inspect available scripts:
+
+    npm run
+
+Then run the appropriate command for development, testing, building, or deployment.
