@@ -87,3 +87,11 @@ With Yarn:
     yarn install
 
 If no dependency manifest is present, no package installation may be required.
+
+## Configuration
+
+Check for example environment files such as:
+
+- `.env.example`
+- `.env.sample`
+- `config.example.*`
