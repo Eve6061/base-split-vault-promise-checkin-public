@@ -123,3 +123,11 @@ Common examples may include:
 Only use commands that are defined and supported by the repository.
 
 ## Testing
+
+If the project includes tests, run them using the toolchain configured in the repository.
+
+For JavaScript or TypeScript projects, this is often:
+
+    npm test
+
+For other ecosystems, use the test runner indicated by the project files.
