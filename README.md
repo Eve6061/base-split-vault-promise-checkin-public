@@ -149,3 +149,13 @@ When working on PromiseCheckinVault:
 Do not commit sensitive values, private keys, credentials, or local configuration.
 
 If the project interacts with external systems, review all configuration carefully before running commands that modify state.
+
+For any production or public deployment workflow, confirm the intended process from the repository maintainers or existing project documentation.
+
+## Contributing
+
+Contributions should be made through the normal Git workflow:
+
+1. Fork or clone the repository.
+2. Create a focused branch for your change.
+3. Make and test your changes.
