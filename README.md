@@ -61,3 +61,11 @@ Common files to check include:
 - `requirements.txt`
 - `pyproject.toml`
 - `Cargo.toml`
+- `go.mod`
+- `foundry.toml`
+- `hardhat.config.*`
+- `.env.example`
+
+Install only the tools required by the files that are actually present in the repository.
+
+## Setup
