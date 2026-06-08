@@ -33,3 +33,13 @@ Depending on the files included in the repository, useful areas to review may in
 - Deployment or environment examples
 
 No additional behavior is claimed here beyond what is present in the repository source.
+
+## Getting Started
+
+Clone the repository:
+
+    git clone https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+
+Change into the project directory:
+
+    cd base-split-vault-promise-checkin-public
