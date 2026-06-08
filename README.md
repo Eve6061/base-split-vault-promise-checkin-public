@@ -16,3 +16,12 @@ PromiseCheckinVault should be treated as the canonical project name throughout t
 
 - **Project name:** PromiseCheckinVault
 - **Repository URL:** https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+- **Visibility:** Public
+
+## Features
+
+The repository is intended to provide the implementation and supporting files for PromiseCheckinVault.
+
+Depending on the files included in the repository, useful areas to review may include:
+
+- Source code
