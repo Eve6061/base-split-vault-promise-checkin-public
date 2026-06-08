@@ -159,3 +159,11 @@ Contributions should be made through the normal Git workflow:
 1. Fork or clone the repository.
 2. Create a focused branch for your change.
 3. Make and test your changes.
+4. Commit with a clear message.
+5. Open a pull request with a concise description.
+
+Include any relevant context, testing notes, or migration details in the pull request description.
+
+## License
+
+No license information was provided in the original README.
