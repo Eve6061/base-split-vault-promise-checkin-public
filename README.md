@@ -51,3 +51,13 @@ Review the repository contents:
 ## Prerequisites
 
 Before running or modifying the project, inspect the repository for dependency and configuration files.
+
+Common files to check include:
+
+- `package.json`
+- `pnpm-lock.yaml`
+- `yarn.lock`
+- `package-lock.json`
+- `requirements.txt`
+- `pyproject.toml`
+- `Cargo.toml`
