@@ -95,3 +95,13 @@ Check for example environment files such as:
 - `.env.example`
 - `.env.sample`
 - `config.example.*`
+
+If one is provided, copy it to a local environment file and fill in values appropriate for your local setup.
+
+Example:
+
+    cp .env.example .env
+
+Do not commit local secrets, private configuration, or machine-specific environment files.
+
+## Usage
