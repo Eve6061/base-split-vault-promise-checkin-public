@@ -131,3 +131,13 @@ For JavaScript or TypeScript projects, this is often:
     npm test
 
 For other ecosystems, use the test runner indicated by the project files.
+
+Review test output carefully before making changes or opening a pull request.
+
+## Development Notes
+
+When working on PromiseCheckinVault:
+
+- Keep changes focused and easy to review.
+- Preserve existing project structure unless a change is necessary.
+- Update documentation when behavior or setup changes.
