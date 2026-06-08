@@ -69,3 +69,13 @@ Common files to check include:
 Install only the tools required by the files that are actually present in the repository.
 
 ## Setup
+
+If the repository includes a dependency manifest, install dependencies using the matching package manager.
+
+For example, if `package.json` is present, use the package manager indicated by the lockfile.
+
+With npm:
+
+    npm install
+
+With pnpm:
