@@ -141,3 +141,11 @@ When working on PromiseCheckinVault:
 - Keep changes focused and easy to review.
 - Preserve existing project structure unless a change is necessary.
 - Update documentation when behavior or setup changes.
+- Avoid committing generated files unless the repository already tracks them.
+- Follow the formatting and naming conventions already used in the codebase.
+
+## Security Notes
+
+Do not commit sensitive values, private keys, credentials, or local configuration.
+
+If the project interacts with external systems, review all configuration carefully before running commands that modify state.
