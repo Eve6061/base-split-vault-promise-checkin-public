@@ -43,3 +43,11 @@ Clone the repository:
 Change into the project directory:
 
     cd base-split-vault-promise-checkin-public
+
+Review the repository contents:
+
+    ls
+
+## Prerequisites
+
+Before running or modifying the project, inspect the repository for dependency and configuration files.
