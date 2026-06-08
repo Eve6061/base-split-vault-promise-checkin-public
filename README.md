@@ -113,3 +113,13 @@ If `package.json` is present, inspect available scripts:
     npm run
 
 Then run the appropriate command for development, testing, building, or deployment.
+
+Common examples may include:
+
+    npm test
+    npm run build
+    npm run dev
+
+Only use commands that are defined and supported by the repository.
+
+## Testing
