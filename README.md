@@ -42,3 +42,12 @@ cd base-split-vault-promise-checkin-public
 ## Setup
 
 After cloning the repository, review the files in the project root.
+
+Look for project-specific setup files such as:
+
+- `package.json`
+- `requirements.txt`
+- `Cargo.toml`
+- `foundry.toml`
+- `hardhat.config.*`
+- `.env.example`
