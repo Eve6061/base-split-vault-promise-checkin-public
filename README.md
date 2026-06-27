@@ -113,3 +113,13 @@ git status
 git add .
 git commit -m "Describe the change"
 ```
+
+## Project Structure
+
+The exact structure depends on the files included in the repository.
+
+A typical review should include:
+
+- Source directories
+- Configuration files
+- Test directories
