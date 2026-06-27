@@ -51,3 +51,12 @@ Look for project-specific setup files such as:
 - `foundry.toml`
 - `hardhat.config.*`
 - `.env.example`
+- `Makefile`
+
+If any of these files are present, follow the conventions for that toolchain.
+
+For example, install dependencies only after confirming which package manager or framework the repository uses.
+
+## Usage
+
+Start by reading the source files and any configuration files included in the repository.
