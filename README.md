@@ -87,3 +87,12 @@ Keep changes focused and easy to review.
 Before committing, check the repository for formatting, linting, or test commands.
 
 If tests are available, run them before opening a pull request or sharing changes.
+
+Avoid committing local environment files, build artifacts, or generated files unless they are intentionally part of the project.
+
+## Suggested Workflow
+
+1. Clone the repository.
+2. Create a new branch for your work.
+3. Review the existing project files.
+4. Make focused changes.
