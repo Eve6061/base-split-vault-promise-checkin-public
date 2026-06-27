@@ -77,3 +77,13 @@ or:
 make
 make test
 ```
+
+Only use commands that match the files actually present in the repository.
+
+## Development Notes
+
+Keep changes focused and easy to review.
+
+Before committing, check the repository for formatting, linting, or test commands.
+
+If tests are available, run them before opening a pull request or sharing changes.
