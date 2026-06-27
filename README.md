@@ -69,3 +69,11 @@ Common examples may include:
 npm install
 npm test
 npm run build
+```
+
+or:
+
+```bash
+make
+make test
+```
