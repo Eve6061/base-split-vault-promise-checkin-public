@@ -105,3 +105,11 @@ Avoid committing local environment files, build artifacts, or generated files un
 ```bash
 git checkout -b feature/your-change-name
 ```
+
+After making changes:
+
+```bash
+git status
+git add .
+git commit -m "Describe the change"
+```
