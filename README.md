@@ -166,3 +166,13 @@ As the project evolves, update this file with:
 - Architecture notes
 
 ## License
+
+No license information was provided in the original README.
+
+Check the repository for a license file before using, modifying, or distributing the project.
+
+## Support
+
+For project details, issues, and updates, visit the repository:
+
+https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
