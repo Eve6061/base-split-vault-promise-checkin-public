@@ -131,3 +131,11 @@ A typical review should include:
 If the repository includes environment configuration, prefer using an example file such as `.env.example`.
 
 Create local environment files only when required by the project.
+
+Do not commit private or machine-specific configuration.
+
+## Testing
+
+If the project includes tests, run the test command provided by the repository鈥檚 tooling.
+
+If no test command is documented, inspect the configuration files to determine the appropriate command.
