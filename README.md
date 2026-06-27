@@ -149,3 +149,11 @@ When contributing:
 - Keep commits focused.
 - Use descriptive commit messages.
 - Update documentation when behavior changes.
+- Add or update tests when relevant.
+- Avoid unrelated formatting changes.
+
+## Maintenance Notes
+
+This README is intended to provide a clean baseline for the project.
+
+As the project evolves, update this file with:
