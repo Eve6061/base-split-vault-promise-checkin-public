@@ -123,3 +123,11 @@ A typical review should include:
 - Source directories
 - Configuration files
 - Test directories
+- Documentation files
+- Deployment or build scripts, if present
+
+## Configuration
+
+If the repository includes environment configuration, prefer using an example file such as `.env.example`.
+
+Create local environment files only when required by the project.
