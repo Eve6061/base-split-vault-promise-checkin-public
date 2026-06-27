@@ -157,3 +157,12 @@ When contributing:
 This README is intended to provide a clean baseline for the project.
 
 As the project evolves, update this file with:
+
+- Specific installation steps
+- Required tools and versions
+- Build commands
+- Test commands
+- Deployment instructions
+- Architecture notes
+
+## License
