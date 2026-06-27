@@ -16,3 +16,11 @@ Use this document as a practical guide when cloning the project, reviewing its s
 
 - Public project repository for PromiseCheckinVault.
 - Central place for source code and related project files.
+- Suitable for local inspection, development, and contribution workflows.
+- Organized for version-controlled collaboration through Git.
+
+## Repository URL
+
+The project is hosted at:
+
+https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
