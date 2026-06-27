@@ -60,3 +60,12 @@ For example, install dependencies only after confirming which package manager or
 ## Usage
 
 Start by reading the source files and any configuration files included in the repository.
+
+If the project includes scripts, run the appropriate command documented in the relevant configuration file.
+
+Common examples may include:
+
+```bash
+npm install
+npm test
+npm run build
