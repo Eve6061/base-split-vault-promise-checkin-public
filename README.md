@@ -24,3 +24,13 @@ Use this document as a practical guide when cloning the project, reviewing its s
 The project is hosted at:
 
 https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+
+## Getting Started
+
+To work with the project locally, first clone the repository:
+
+```bash
+git clone https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+```
+
+Then enter the project directory:
