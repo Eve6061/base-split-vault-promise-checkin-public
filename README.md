@@ -139,3 +139,13 @@ Do not commit private or machine-specific configuration.
 If the project includes tests, run the test command provided by the repository鈥檚 tooling.
 
 If no test command is documented, inspect the configuration files to determine the appropriate command.
+
+## Contributing
+
+Contributions should be clear, minimal, and aligned with the existing project style.
+
+When contributing:
+
+- Keep commits focused.
+- Use descriptive commit messages.
+- Update documentation when behavior changes.
