@@ -96,3 +96,12 @@ Avoid committing local environment files, build artifacts, or generated files un
 2. Create a new branch for your work.
 3. Review the existing project files.
 4. Make focused changes.
+5. Run available checks or tests.
+6. Commit with a clear message.
+7. Push your branch and open a pull request if applicable.
+
+## Branching Example
+
+```bash
+git checkout -b feature/your-change-name
+```
