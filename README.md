@@ -161,3 +161,15 @@ or:
 ```bash
 make test
 ```
+
+Use only the commands that match the repository contents.
+
+## Development Notes
+
+Keep changes focused and easy to review.
+
+Before committing, check whether the repository provides formatting, linting, build, or test commands.
+
+Avoid unrelated formatting changes when working on functional updates.
+
+Update documentation when behavior, setup steps, or usage instructions change.
