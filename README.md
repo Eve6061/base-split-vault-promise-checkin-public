@@ -31,3 +31,13 @@ https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
 Clone the repository to your local machine:
 
 ```bash
+git clone https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+```
+
+Enter the project directory:
+
+```bash
+cd base-split-vault-promise-checkin-public
+```
+
+Review the files in the repository root before running installation, build, or test commands.
