@@ -117,3 +117,15 @@ git commit -m "Describe the change"
 ```
 
 ## Project Structure
+
+The exact structure depends on the files included in the repository.
+
+When reviewing the project, look for:
+
+- Source directories
+- Configuration files
+- Test directories
+- Documentation files
+- Build scripts
+- Deployment scripts, if present
+- Environment examples, if present
