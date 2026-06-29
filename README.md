@@ -129,3 +129,13 @@ When reviewing the project, look for:
 - Build scripts
 - Deployment scripts, if present
 - Environment examples, if present
+
+If the repository structure changes, update this section with a more specific directory map.
+
+## Configuration
+
+If the project uses environment configuration, prefer an example file such as `.env.example` when available.
+
+Create local environment files only when required by the project.
+
+Do not commit private, local, or machine-specific configuration files.
