@@ -184,3 +184,13 @@ When contributing:
 
 - Keep commits focused.
 - Use descriptive commit messages.
+- Follow the conventions already present in the repository.
+- Update documentation when needed.
+- Add or update tests when relevant.
+- Avoid unrelated changes in the same commit or pull request.
+
+## Maintenance Notes
+
+This README provides a clean baseline for the project.
+
+As PromiseCheckinVault evolves, update this file with more specific details, such as:
