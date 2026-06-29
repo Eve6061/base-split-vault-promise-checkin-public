@@ -75,3 +75,14 @@ npm run build
 ```
 
 For projects using a `Makefile`, common commands may include:
+
+```bash
+make
+make test
+```
+
+Only run commands that are supported by the files and tooling included in this repository.
+
+## Suggested Workflow
+
+1. Clone the repository.
