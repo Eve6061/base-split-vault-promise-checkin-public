@@ -53,3 +53,13 @@ Common files that may indicate the project toolchain include:
 - `Cargo.toml`
 - `foundry.toml`
 - `hardhat.config.*`
+- `.env.example`
+- `Makefile`
+
+If one or more of these files are present, follow the conventions for the corresponding toolchain.
+
+Install dependencies only after confirming which framework, package manager, or build system the repository uses.
+
+## Usage
+
+Begin by reading the source files, configuration files, and any scripts included in the project.
