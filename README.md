@@ -151,3 +151,13 @@ If no test command is documented, inspect the configuration files to determine t
 Before sharing changes, run any available checks that apply to the modified files.
 
 Examples may include:
+
+```bash
+npm test
+```
+
+or:
+
+```bash
+make test
+```
