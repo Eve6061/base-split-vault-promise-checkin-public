@@ -41,3 +41,15 @@ cd base-split-vault-promise-checkin-public
 ```
 
 Review the files in the repository root before running installation, build, or test commands.
+
+## Setup
+
+After cloning the repository, inspect the project structure and look for setup or configuration files.
+
+Common files that may indicate the project toolchain include:
+
+- `package.json`
+- `requirements.txt`
+- `Cargo.toml`
+- `foundry.toml`
+- `hardhat.config.*`
