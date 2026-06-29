@@ -19,3 +19,15 @@ Use this document when cloning the repository, reviewing its contents, preparing
 - Suitable for local review, development, and contribution workflows.
 - Designed for version-controlled collaboration with Git.
 - Includes guidance for setup, usage, testing, and maintenance.
+
+## Repository URL
+
+The project is hosted at:
+
+https://github.com/Eve6061/base-split-vault-promise-checkin-public.git
+
+## Getting Started
+
+Clone the repository to your local machine:
+
+```bash
