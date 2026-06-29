@@ -63,3 +63,15 @@ Install dependencies only after confirming which framework, package manager, or 
 ## Usage
 
 Begin by reading the source files, configuration files, and any scripts included in the project.
+
+If the repository includes documented scripts, use the commands that match the actual files present in the project.
+
+For JavaScript or TypeScript-based projects, common commands may include:
+
+```bash
+npm install
+npm test
+npm run build
+```
+
+For projects using a `Makefile`, common commands may include:
