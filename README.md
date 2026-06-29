@@ -86,3 +86,14 @@ Only run commands that are supported by the files and tooling included in this r
 ## Suggested Workflow
 
 1. Clone the repository.
+2. Create a new branch for your changes.
+3. Review the existing files and project structure.
+4. Make focused, relevant updates.
+5. Run available formatting, linting, build, or test commands.
+6. Review your changes with `git diff`.
+7. Commit with a clear message.
+8. Push your branch and open a pull request if applicable.
+
+## Branching Example
+
+Create a working branch:
