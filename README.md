@@ -194,3 +194,14 @@ When contributing:
 This README provides a clean baseline for the project.
 
 As PromiseCheckinVault evolves, update this file with more specific details, such as:
+
+- Required tools and versions
+- Installation steps
+- Build commands
+- Test commands
+- Deployment instructions
+- Directory structure
+- Architecture notes
+- Troubleshooting guidance
+
+Keeping the README current will make the repository easier to understand and maintain.
