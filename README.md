@@ -139,3 +139,15 @@ If the project uses environment configuration, prefer an example file such as `.
 Create local environment files only when required by the project.
 
 Do not commit private, local, or machine-specific configuration files.
+
+If new configuration values are required, document them clearly and update any example files when appropriate.
+
+## Testing
+
+If the project includes tests, run the test command defined by the repository tooling.
+
+If no test command is documented, inspect the configuration files to determine the correct command.
+
+Before sharing changes, run any available checks that apply to the modified files.
+
+Examples may include:
