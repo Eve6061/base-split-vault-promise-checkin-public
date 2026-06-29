@@ -108,3 +108,12 @@ Check your changes:
 git status
 git diff
 ```
+
+Commit your work:
+
+```bash
+git add .
+git commit -m "Describe the change"
+```
+
+## Project Structure
