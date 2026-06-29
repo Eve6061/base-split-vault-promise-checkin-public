@@ -173,3 +173,14 @@ Before committing, check whether the repository provides formatting, linting, bu
 Avoid unrelated formatting changes when working on functional updates.
 
 Update documentation when behavior, setup steps, or usage instructions change.
+
+Do not commit generated files, build artifacts, dependency folders, or local environment files unless they are intentionally part of the project.
+
+## Contributing
+
+Contributions should be clear, minimal, and aligned with the existing project style.
+
+When contributing:
+
+- Keep commits focused.
+- Use descriptive commit messages.
