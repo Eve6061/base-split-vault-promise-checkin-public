@@ -97,3 +97,14 @@ Only run commands that are supported by the files and tooling included in this r
 ## Branching Example
 
 Create a working branch:
+
+```bash
+git checkout -b feature/your-change-name
+```
+
+Check your changes:
+
+```bash
+git status
+git diff
+```
